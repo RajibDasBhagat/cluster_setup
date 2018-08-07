@@ -6,7 +6,7 @@ metadata:
 spec:
   securityContext:
     # You need to specify your user ID here. You can get this by running "id -u"
-    runAsUser: id
+    runAsUser: rajib
   volumes:
   # The following 3 entries are the NFS mounts available to you. You do not need to
   # modify them. They are for your home folder, and the shared tools and datasets
@@ -83,7 +83,7 @@ spec:
     volumeMounts:
     # Entry for your home folder. Make sure to replace <username> with your
     # username.
-    - mountPath: /storage/home/<username>
+    - mountPath: /storage/home/rajib
       name: home
     # Entry for the other folders mentioned above.
     - mountPath: /tools
