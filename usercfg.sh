@@ -4,4 +4,4 @@ kubectl config set-credentials $1 --client-certificate=/storage/home/$1/.kube/ke
 
 kubectl config set-context $1-context --cluster=kubernetes --namespace=$1-namespace --user=$1
 
-kubectl config use-context $1-context
+kubectl config use-context $1-context --validate=false
