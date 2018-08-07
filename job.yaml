@@ -6,7 +6,7 @@ metadata:
 spec:
   securityContext:
     # You need to specify your user ID here. You can get this by running "id -u"
-    runAsUser: rajib
+    runAsUser: 1092
   volumes:
   # The following 3 entries are the NFS mounts available to you. You do not need to
   # modify them. They are for your home folder, and the shared tools and datasets
