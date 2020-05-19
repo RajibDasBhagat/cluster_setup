@@ -1,2 +1,2 @@
 # kube-test
-Kubernetes test job
+Kubernetes first time cluster setup.
